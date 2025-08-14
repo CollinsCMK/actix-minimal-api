@@ -27,9 +27,15 @@ cd actix-minimal-api
 
 2. **Add Actix Web to `Cargo.toml`**
 
+```bash
+cargo add actix-web
+```
+
+Or manually edit `Cargo.toml`:
+
 ```toml
 [dependencies]
-actix-web = "4"
+actix-web = "4.11.0"
 ```
 
 3. **Replace `src/main.rs` with:**
@@ -79,4 +85,3 @@ Hello world!
 
 * [Actix Web Docs](https://actix.rs/)
 * [Rust Book](https://doc.rust-lang.org/book/)
-# actix-minimal-api
